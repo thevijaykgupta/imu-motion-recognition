@@ -43,7 +43,7 @@ class VisualizationEngine:
         plt.tight_layout()
         plt.savefig(f'{self.output_dir}/training_history_{metric}.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"[OK] Training history plot saved")
+        print(f"Training history plot saved")
     
     def plot_confusion_matrices(self, y_true, predictions_dict, activity_labels):
         """Plot confusion matrices for multiple models"""
@@ -69,7 +69,7 @@ class VisualizationEngine:
         plt.tight_layout()
         plt.savefig(f'{self.output_dir}/confusion_matrices.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"[OK] Confusion matrices plot saved")
+        print(f"Confusion matrices plot saved")
     
     def plot_model_comparison(self, results_df):
         """Plot model accuracy comparison"""
@@ -94,7 +94,7 @@ class VisualizationEngine:
         plt.tight_layout()
         plt.savefig(f'{self.output_dir}/model_comparison.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"[OK] Model comparison plot saved")
+        print(f"Model comparison plot saved")
     
     def plot_class_distribution(self, y_train, y_test, activity_labels):
         """Plot class distribution in train and test sets"""
@@ -123,7 +123,7 @@ class VisualizationEngine:
         plt.tight_layout()
         plt.savefig(f'{self.output_dir}/class_distribution.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"[OK] Class distribution plot saved")
+        print(f"Class distribution plot saved")
     
     def plot_raw_signals(self, X_data, y_labels, activity_labels, n_activities=3):
         """Plot sample raw IMU signals for each activity"""
@@ -164,7 +164,7 @@ class VisualizationEngine:
         plt.tight_layout()
         plt.savefig(f'{self.output_dir}/raw_signals.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"[OK] Raw signals plot saved")
+        print(f"Raw signals plot saved")
     
     def plot_frequency_analysis(self, X_data, y_labels, activity_labels, n_samples=3):
         """Plot frequency domain analysis (FFT) for different activities"""
@@ -213,7 +213,7 @@ class VisualizationEngine:
         plt.tight_layout()
         plt.savefig(f'{self.output_dir}/frequency_analysis.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"[OK] Frequency analysis plot saved")
+        print(f"Frequency analysis plot saved")
     
     def plot_per_class_metrics(self, y_true, predictions_dict, activity_labels):
         """Plot per-class accuracy for each model"""
@@ -251,7 +251,7 @@ class VisualizationEngine:
         plt.tight_layout()
         plt.savefig(f'{self.output_dir}/per_class_metrics.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"[OK] Per-class metrics plot saved")
+        print(f"Per-class metrics plot saved")
     
     def plot_confidence_distribution(self, confidences, predictions, ground_truth, 
                                     activity_labels):
@@ -287,7 +287,7 @@ class VisualizationEngine:
         plt.tight_layout()
         plt.savefig(f'{self.output_dir}/confidence_distribution.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"[OK] Confidence distribution plot saved")
+        print(f"Confidence distribution plot saved")
 
 
 class ComprehensiveAnalysis:

@@ -1,57 +1,57 @@
-# 📦 HUMAN MOTION RECOGNITION PROJECT
+# HUMAN MOTION RECOGNITION PROJECT
 ## Complete Package for Team Distribution
 
-**Version**: 1.0  
-**Project**: Human Activity Recognition using IMU Data  
-**Team**: Kaushal H & Vijay Kumar Gupta  
-**Status**: ✅ Production Ready
+**Version**: 1.0
+**Project**: Human Activity Recognition using IMU Data
+**Team**: Kaushal H & Vijay Kumar Gupta
+**Status**: Production Ready
 
 ---
 
-## 🎯 WHAT'S IN THIS PACKAGE
+## WHAT'S IN THIS PACKAGE
 
 This zip file contains a **complete, ready-to-run implementation** of a Human Motion Recognition system using Machine Learning and Deep Learning.
 
-### 📁 Package Contents (9 files, 36KB zip)
+### Package Contents (9 files, 36KB zip)
 
 ```
 imu-motion-recognition.zip
-│
-├── 📖 SETUP_GUIDE.md              ← START HERE!
-├── ⚡ QUICK_REFERENCE.md          ← Command reference
-├── 📚 README.md                   ← Full documentation
-│
-├── 🐍 imu_motion_recognition.py   ← Core ML/DL models (1000+ lines)
-├── 🔮 realtime_inference.py       ← Real-time predictions (400 lines)
-├── 📊 analysis_visualization.py   ← Plots & analysis (600 lines)
-├── 🎬 run_complete_pipeline.py    ← Master orchestrator (500 lines)
-├── 📝 examples.py                 ← Interactive examples (400 lines)
-│
-└── 📋 requirements.txt             ← Python dependencies
+|
+|-- SETUP_GUIDE.md              <-- START HERE!
+|-- QUICK_REFERENCE.md          <-- Command reference
+|-- README.md                   <-- Full documentation
+|
+|-- imu_motion_recognition.py   <-- Core ML/DL models (1000+ lines)
+|-- realtime_inference.py       <-- Real-time predictions (400 lines)
+|-- analysis_visualization.py   <-- Plots & analysis (600 lines)
+|-- run_complete_pipeline.py    <-- Master orchestrator (500 lines)
+|-- examples.py                 <-- Interactive examples (400 lines)
+|
+|-- requirements.txt             <-- Python dependencies
 ```
 
 ---
 
-## ✨ KEY FEATURES
+## KEY FEATURES
 
-✅ **Complete End-to-End Pipeline**
+- Complete End-to-End Pipeline
 - Data download & preprocessing
 - 6 trained models (SVM, XGB, RF, CNN-LSTM, LSTM, CNN)
 - Automatic model evaluation & comparison
 - Real-time inference capability
 
-✅ **High Accuracy**
-- **Best Model**: CNN-LSTM with 96.1% accuracy
+- High Accuracy
+- Best Model: CNN-LSTM with 96.1% accuracy
 - Per-activity accuracy breakdown
 - Confidence scores for predictions
 
-✅ **Production Ready**
+- Production Ready
 - Error handling & validation
 - Pre-trained model saving/loading
 - Real-time streaming inference
 - Comprehensive analysis reports
 
-✅ **Easy to Use**
+- Easy to Use
 - One command to run everything
 - Interactive examples for learning
 - Clear console output
@@ -59,7 +59,7 @@ imu-motion-recognition.zip
 
 ---
 
-## 🚀 QUICK START (5 MINUTES)
+## QUICK START (5 MINUTES)
 
 ### Step 1: Extract the zip file
 ```bash
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 python run_complete_pipeline.py
 ```
 
-**That's it!** ✅
+That's it!
 
 The pipeline will:
 1. Download UCI HAR dataset (~100MB)
@@ -99,66 +99,66 @@ The pipeline will:
 6. Save trained models
 7. Test real-time inference
 
-⏱️ **Execution time**: ~45 minutes on CPU, ~30 minutes on GPU
+Execution time: ~45 minutes on CPU, ~30 minutes on GPU
 
 ---
 
-## 📖 DOCUMENTATION
+## DOCUMENTATION
 
 ### For Team Members
 
-**🔴 FIRST TIME? START HERE:**
+**FIRST TIME? START HERE:**
 1. Open `SETUP_GUIDE.md` (detailed step-by-step guide)
 2. Follow installation steps (15 minutes)
 3. Run `python run_complete_pipeline.py` (45 minutes)
 4. Review results in console and `./visualizations/`
 
-**⚡ WANT QUICK COMMANDS?**
+**WANT QUICK COMMANDS?**
 - Check `QUICK_REFERENCE.md` (command cheat sheet)
 - Run `python examples.py` (interactive demo)
 
-**📚 NEED FULL DETAILS?**
+**NEED FULL DETAILS?**
 - Read `README.md` (comprehensive documentation)
 - Review code comments in Python files
 
 ---
 
-## 🎯 WHAT YOU'LL GET
+## WHAT YOU'LL GET
 
 ### After running the pipeline:
 
 **Trained Models** (in `./models/`)
 ```
-✓ cnn_lstm_model.h5    (50MB) - 96.1% accuracy ⭐ Best
-✓ lstm_model.h5        (40MB) - 93.9% accuracy
-✓ cnn_model.h5         (35MB) - 92.0% accuracy
-✓ xgb_model.pkl        (5MB)  - 91.5% accuracy (Fastest)
-✓ svm_model.pkl        (10MB) - 89.2% accuracy
-✓ rf_model.pkl         (20MB) - 89.9% accuracy
+- cnn_lstm_model.h5    (50MB) - 96.1% accuracy (Best)
+- lstm_model.h5        (40MB) - 93.9% accuracy
+- cnn_model.h5         (35MB) - 92.0% accuracy
+- xgb_model.pkl        (5MB)  - 91.5% accuracy (Fastest)
+- svm_model.pkl        (10MB) - 89.2% accuracy
+- rf_model.pkl         (20MB) - 89.9% accuracy
 ```
 
 **Visualizations** (in `./visualizations/`)
 ```
-✓ training_history_accuracy.png    - Learning curves
-✓ confusion_matrices.png            - Prediction breakdown
-✓ model_comparison.png              - Accuracy comparison
-✓ class_distribution.png            - Data balance
-✓ raw_signals.png                   - Sample signals
-✓ frequency_analysis.png            - FFT analysis
-✓ per_class_metrics.png             - Per-activity accuracy
+- training_history_accuracy.png    - Learning curves
+- confusion_matrices.png           - Prediction breakdown
+- model_comparison.png             - Accuracy comparison
+- class_distribution.png           - Data balance
+- raw_signals.png                  - Sample signals
+- frequency_analysis.png           - FFT analysis
+- per_class_metrics.png            - Per-activity accuracy
 ```
 
 **Analysis Report**
 ```
 visualizations/report/analysis_report.txt
-├── Model Performance Summary
-├── Per-Class Performance Analysis
-└── Deployment Recommendations
+- Model Performance Summary
+- Per-Class Performance Analysis
+- Deployment Recommendations
 ```
 
 ---
 
-## 🎓 USAGE EXAMPLES
+## USAGE EXAMPLES
 
 ### Example 1: See It Work (2 minutes)
 ```bash
@@ -190,22 +190,22 @@ python examples.py
 
 ---
 
-## 📊 ACTIVITIES RECOGNIZED
+## ACTIVITIES RECOGNIZED
 
 The system recognizes 6 human activities:
 
 | Activity | Accuracy | Confidence |
 |----------|----------|------------|
-| 🚶 Walking | 97% | Very High |
-| 🥾 Walking Upstairs | 96% | Very High |
-| ⬇️ Walking Downstairs | 94% | High |
-| 🪑 Sitting | 97% | Very High |
-| 🧍 Standing | 95% | High |
-| 🛏️ Laying | 98% | Very High |
+| Walking | 97% | Very High |
+| Walking Upstairs | 96% | Very High |
+| Walking Downstairs | 94% | High |
+| Sitting | 97% | Very High |
+| Standing | 95% | High |
+| Laying | 98% | Very High |
 
 ---
 
-## 💻 SYSTEM REQUIREMENTS
+## SYSTEM REQUIREMENTS
 
 - **OS**: Windows, macOS, or Linux
 - **Python**: 3.8 or higher
@@ -221,7 +221,7 @@ pip --version          # Should exist
 
 ---
 
-## ⚠️ TROUBLESHOOTING
+## TROUBLESHOOTING
 
 ### "ModuleNotFoundError: tensorflow"
 ```bash
@@ -242,21 +242,21 @@ source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate    # Windows
 ```
 
-**For more troubleshooting:** See SETUP_GUIDE.md
+For more troubleshooting: See SETUP_GUIDE.md
 
 ---
 
-## 🔧 MODELS & THEIR USE CASES
+## MODELS & THEIR USE CASES
 
 ### CNN-LSTM (Recommended for most cases)
-- **Accuracy**: 96.1% ⭐ Best
+- **Accuracy**: 96.1% (Best)
 - **Speed**: Medium
 - **Use When**: You want best accuracy and can wait 20 min for training
 - **Deployment**: Production systems
 
 ### XGBoost (Fastest)
 - **Accuracy**: 91.5%
-- **Speed**: ⚡ Fastest
+- **Speed**: Fastest
 - **Use When**: You need instant predictions
 - **Deployment**: Edge devices, mobile apps
 
@@ -273,39 +273,39 @@ venv\Scripts\activate    # Windows
 
 ---
 
-## 📈 PERFORMANCE BENCHMARKS
+## PERFORMANCE BENCHMARKS
 
 ### Accuracy Comparison
 ```
-CNN-LSTM    ████████████████████████████ 96.1%
-LSTM        ███████████████████████      93.9%
-CNN         █████████████████████        92.0%
-XGBoost     ████████████████████         91.5%
-Random Forest ███████████████████        89.9%
-SVM         ██████████████████           89.2%
+CNN-LSTM    96.1%
+LSTM        93.9%
+CNN         92.0%
+XGBoost     91.5%
+Random Forest 89.9%
+SVM         89.2%
 ```
 
 ### Speed Comparison (per 100 predictions)
 ```
-XGBoost     ▌ 50ms
-CNN         ███ 150ms
-LSTM        ███ 180ms
-CNN-LSTM    ████ 200ms
-SVM         ███████ 500ms
+XGBoost     50ms
+CNN         150ms
+LSTM        180ms
+CNN-LSTM    200ms
+SVM         500ms
 ```
 
 ### Memory Usage
 ```
-XGBoost     ▌ 5MB
-SVM         ██ 10MB
-Random Forest ███ 20MB
-LSTM        ████ 40MB
-CNN-LSTM    █████ 50MB
+XGBoost     5MB
+SVM         10MB
+Random Forest 20MB
+LSTM        40MB
+CNN-LSTM    50MB
 ```
 
 ---
 
-## 🚢 DEPLOYMENT OPTIONS
+## DEPLOYMENT OPTIONS
 
 ### Option 1: Desktop Application
 ```python
@@ -331,7 +331,7 @@ predictions = model.predict(imu_data)
 
 ---
 
-## 📝 FILES EXPLAINED
+## FILES EXPLAINED
 
 ### Python Files
 
@@ -347,20 +347,20 @@ predictions = model.predict(imu_data)
 
 | File | Purpose |
 |------|---------|
-| `SETUP_GUIDE.md` | Detailed setup instructions (START HERE!) |
+| `SETUP_GUIDE.md` | Detailed setup instructions |
 | `QUICK_REFERENCE.md` | Command cheat sheet |
 | `README.md` | Full technical documentation |
 | `requirements.txt` | Python dependencies |
 
 ---
 
-## ✅ VERIFICATION CHECKLIST
+## VERIFICATION CHECKLIST
 
 After extraction, before running, verify:
 - [ ] All 9 files present in folder
 - [ ] Python 3.8+ installed (`python --version`)
 - [ ] pip works (`pip --version`)
-- [ ] Virtual environment created (`source venv/bin/activate`)
+- [ ] Virtual environment created
 - [ ] Dependencies installed (`pip install -r requirements.txt`)
 
 After running pipeline, verify:
@@ -372,7 +372,7 @@ After running pipeline, verify:
 
 ---
 
-## 🎉 YOU'RE READY!
+## YOU'RE READY!
 
 ### Next Steps:
 
@@ -382,40 +382,42 @@ After running pipeline, verify:
 4. **Run** `python run_complete_pipeline.py` (45 minutes)
 5. **Review** results in `./visualizations/`
 
-**That's all there is to it!** 🚀
+That's all there is to it!
 
 ---
 
-## 📞 NEED HELP?
+## NEED HELP?
 
-1. **Setup Issues?** → Read `SETUP_GUIDE.md` (troubleshooting section)
-2. **Want Quick Commands?** → Check `QUICK_REFERENCE.md`
-3. **Need Full Details?** → Review `README.md`
-4. **Want to Learn?** → Run `python examples.py`
-5. **Check Error Message** → Usually tells you what's wrong
+1. **Setup Issues?** -> Read `SETUP_GUIDE.md` (troubleshooting section)
+2. **Want Quick Commands?** -> Check `QUICK_REFERENCE.md`
+3. **Need Full Details?** -> Review `README.md`
+4. **Want to Learn?** -> Run `python examples.py`
+5. **Check Error Message** -> Usually tells you what's wrong
 
 ---
 
-## 📊 WHAT'S INSIDE THE ZIP
+## WHAT'S INSIDE THE ZIP
 
 ```
 imu-motion-recognition.zip (36KB compressed)
-├── Core Implementation (5 Python files, ~2800 lines total)
-├── Documentation (4 guide files)
-├── Dependencies (requirements.txt)
-└── Ready to download UCI HAR dataset on first run
+|-- Core Implementation (5 Python files, ~2800 lines total)
+|-- Documentation (4 guide files)
+|-- Dependencies (requirements.txt)
+|-- Ready to download UCI HAR dataset on first run
+```
 
 After extraction & running:
-├── UCI_HAR_Dataset/ (auto-downloaded, ~100MB)
-├── models/ (6 trained models, ~160MB)
-└── visualizations/ (7 analysis plots, ~5MB)
+```
+|-- UCI_HAR_Dataset/ (auto-downloaded, ~100MB)
+|-- models/ (6 trained models, ~160MB)
+|-- visualizations/ (7 analysis plots, ~5MB)
 ```
 
 ---
 
-## 🌟 HIGHLIGHTS
+## HIGHLIGHTS
 
-✨ **What Makes This Special:**
+**What Makes This Special:**
 - Complete implementation (not just a template)
 - Multiple model comparison (not just one algorithm)
 - Production-ready code (not just academic code)
@@ -425,12 +427,8 @@ After extraction & running:
 
 ---
 
-**Happy Machine Learning! 🎉**
+**Package Created**: June 2024
+**For**: Kaushal H & Team
+**Status**: Ready for Distribution
 
-*For questions or issues, refer to the troubleshooting sections in SETUP_GUIDE.md or README.md*
-
----
-
-**Package Created**: June 2024  
-**For**: Kaushal H & Team  
-**Status**: ✅ Ready for Distribution  
+For questions or issues, refer to the troubleshooting sections in SETUP_GUIDE.md or README.md

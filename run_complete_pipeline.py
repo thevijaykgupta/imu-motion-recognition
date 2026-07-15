@@ -407,8 +407,8 @@ class CompleteHARPipeline:
             print("|  Analysis report generated")
             print("="*66)
             
-            print(f"\n📁 Models saved in: {self.models_dir}/")
-            print(f"📊 Visualizations in: {self.viz_dir}/")
+            print(f"\nModels saved in: {self.models_dir}/")
+            print(f"Visualizations in: {self.viz_dir}/")
             
             return True
             
