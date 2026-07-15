@@ -435,7 +435,7 @@ If you use this code in your research, please cite:
 
 ## Contact
 
-- GitHub: [Repository Issues](https://github.com/[username]/imu-motion-recognition/issues)
+- GitHub: [Repository Issues](https://github.com/thevijaykgupta/imu-motion-recognition/issues)
 - Email: the.vijaykgupta@gmail.com
 
 ---
